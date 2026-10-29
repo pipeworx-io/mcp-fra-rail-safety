@@ -1,12 +1,20 @@
 {
   "name": "@pipeworx/mcp-fra-rail-safety",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "description": "FRA Rail Safety — US railroad accidents and highway-rail grade crossing incidents reported to the Federal Railroad Administration.",
   "type": "module",
-  "main": "src/index.ts",
-  "types": "src/index.ts",
+  "main": "lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./tools.json": "./tools.json",
+    "./package.json": "./package.json"
+  },
   "bin": {
     "mcp-fra-rail-safety": "bin/cli.js"
+  },
+  "files": ["bin/", "lib/", "tools.json", "server.json"],
+  "engines": {
+    "node": ">=18"
   },
   "keywords": ["mcp", "mcp-server", "model-context-protocol", "pipeworx", "fra-rail-safety"],
   "license": "MIT",
@@ -14,19 +22,12 @@
     "type": "git",
     "url": "git+https://github.com/pipeworx-io/mcp-fra-rail-safety.git"
   },
-  "scripts": {
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "@modelcontextprotocol/sdk": "^1.30.0",
-    "tsx": "^4.19.0"
-  },
-  "devDependencies": {
-    "typescript": "^5.9.3",
-    "@cloudflare/workers-types": "^4.20260405.1"
-  },
+  "mcpName": "io.github.pipeworx-io/fra-rail-safety",
   "pipeworx": {
-    "sourceHash": "v1-0b40a3d5395f76de6aeae7446a616c860315661044d54a4af0e7f933e87ddafc",
-    "sourceCommit": "445bacc5596a845c12d6945fbfcdf330ef60dcc4"
+    "mode": "gateway",
+    "slug": "fra-rail-safety",
+    "gatewaySlug": "fra-rail-safety",
+    "sourceHash": "v1-0ad0a2227c48e3564ab31267309df02d2ab19af39806b927151d531970fec64a",
+    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
   }
 }

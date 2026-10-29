@@ -3,7 +3,7 @@
   "name": "io.github.pipeworx-io/fra-rail-safety",
   "title": "Fra Rail Safety",
   "description": "FRA Rail Safety — US railroad accidents and highway-rail grade crossing incidents reported to the…",
-  "version": "0.1.2",
+  "version": "0.2.0",
   "websiteUrl": "https://pipeworx.io/packs/fra-rail-safety",
   "repository": {
     "url": "https://github.com/pipeworx-io/mcp-fra-rail-safety",
