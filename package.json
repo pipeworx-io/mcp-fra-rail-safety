@@ -1,6 +1,6 @@
 {
   "name": "@pipeworx/mcp-fra-rail-safety",
-  "version": "0.2.0",
+  "version": "0.2.1",
   "description": "FRA Rail Safety — US railroad accidents and highway-rail grade crossing incidents reported to the Federal Railroad Administration.",
   "type": "module",
   "main": "lib/index.js",
@@ -27,7 +27,7 @@
     "mode": "gateway",
     "slug": "fra-rail-safety",
     "gatewaySlug": "fra-rail-safety",
-    "sourceHash": "v1-0ad0a2227c48e3564ab31267309df02d2ab19af39806b927151d531970fec64a",
-    "sourceCommit": "bb047243cf27f32453103de186b8e6a8b6a1ce79"
+    "sourceHash": "v1-22f7b5438900935be0f80a27f0176e674e0ee3054dfef3d919a163086355b4d9",
+    "sourceCommit": "030233f6b150a38a44421f88a5fcbad123f0fea8"
   }
 }
